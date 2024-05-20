@@ -357,3 +357,13 @@ ul {
     text-align: justify;
 }
 
+@media (max-width: 768px) {
+
+    .regular-section{
+        font-size:15px;
+    }
+    .fareme-content{
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+  }
