@@ -94,7 +94,7 @@ a{
 
 
 .card-container {
-    background: rgba(33, 47, 239, 0.211);
+    background: rgba(33, 47, 239, 0.205);
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     backdrop-filter: blur(10px);
     border-radius: 8px;
@@ -318,13 +318,11 @@ ul {
 
 
 .title  {
-    position: sticky;
-    top:0;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
+    height: 10%;
 }
 
 .title img{
@@ -359,6 +357,3 @@ ul {
     text-align: justify;
 }
 
-.stat-num {
-
-}
