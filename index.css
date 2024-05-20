@@ -94,7 +94,7 @@ a{
 
 
 .card-container {
-    background: rgba(255,255,255,.05);
+    background: rgba(33, 47, 239, 0.211);
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     backdrop-filter: blur(10px);
     border-radius: 8px;
@@ -318,6 +318,8 @@ ul {
 
 
 .title  {
+    position: sticky;
+    top:0;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -334,6 +336,7 @@ ul {
     display: flex;
     align-items: center;
 }
+
 .tagline hr{
     font-size: 10px;
     width: 90%;
@@ -348,7 +351,14 @@ ul {
 }
 
 .fareme-content{
-    height:1000px;
+    margin-top: 20px;
 }
 
+.regular-section{
+    font-size: 20px;
+    text-align: justify;
+}
 
+.stat-num {
+
+}
