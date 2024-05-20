@@ -350,6 +350,7 @@ ul {
 
 .fareme-content{
     margin-top: 20px;
+    padding-bottom: 30px;
 }
 
 .regular-section{
@@ -366,4 +367,13 @@ ul {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+  }
+
+
+  .feas-ass li{
+    text-align: justify;
+    padding: 5px;
+    border-width: 5px;
+    border-color: white;
+    border-style:groove;
   }
