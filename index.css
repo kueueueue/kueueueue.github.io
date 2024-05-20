@@ -3,7 +3,9 @@ body {
     background-image: url("./background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
+
 
 a{
     text-decoration: none;
@@ -86,18 +88,21 @@ a{
 	background-color: #5555556b;
 }
 /*******************/
+.container-fluid {
+    min-height: 100vh; /* Ensure it takes at least the full viewport height */
+  }
+
 
 .card-container {
-    width: 100%;
-    height: 90vh;
     background: rgba(255,255,255,.05);
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     backdrop-filter: blur(10px);
     border-radius: 8px;
     overflow-y: auto;
-    min-width: 400px;
+    width:100%;
+    min-width: 150px;
+    max-height: 95vh;
   }
-
 
 
 /*
@@ -116,7 +121,7 @@ a{
 */
    .upper{
 
-
+    margin-top: 10px;
     height: 40%;
     border-radius: 20px;
     overflow:hidden;
@@ -133,8 +138,20 @@ a{
 
    .user{
     position: absolute;
-    top: 35%;
+    top: 30%;
+    height: 200px;
    }
+
+   @media (max-width: 720px) {
+    .user {
+        top: 25%;
+    }
+  }
+  @media (max-width: 550px) {
+    .user {
+        top: 10%;
+    }
+  }
 
    .profile img{
     height: 99%;
@@ -145,14 +162,8 @@ a{
    }
 
    .profile{
-
-    position: absolute;
-    top:-50px;
-    left: 38%;
-    height: 200px;
-    width: 200px;
+    height: 100%;
     border:3px solid #fff;
-
     border-radius: 50%;
 
    }
@@ -292,3 +303,52 @@ ul {
   ul li a:hover:nth-child(4) {
     color: #dd4b39;
   }
+
+
+  @media (max-width: 768px) {
+
+    ul li a {
+      width: auto; /* Allow width to adjust based on content */
+      height: auto; /* Adjust height */
+      line-height: normal; /* Adjust line-height */
+      font-size: 24px; /* Adjust font size */
+      margin: 20px 20px; /* Adjust margin for better spacing */
+    }
+  }
+
+
+.title  {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.title img{
+    width: auto;
+    height: 100%;
+}
+
+.tagline{
+    display: flex;
+    align-items: center;
+}
+.tagline hr{
+    font-size: 10px;
+    width: 90%;
+    border-width: 5px;
+    border-color: white;
+    opacity: 1;
+}
+
+.tagline h2{
+    text-align: center;
+    color:white;
+}
+
+.fareme-content{
+    height:1000px;
+}
+
+

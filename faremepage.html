@@ -1,135 +1,46 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Escabarte - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <div class="d-flex container pt-5">
-        <div class="row">
-            <div class="col-3 me-5 flex-fill">
-              <a class="row p-3 mw-30" href="./index.html">
-                <button type="button" class="button-74">About Me</button>
-              </a>
-              <a class="row p-3 mw-20" href="./faremepage.html">
-                <button type="button" class="button-74">FareMe</button>
-              </a>
-            </div>
-
-            <!-- page content ----->
-            <div class="col-8 ms-5 flex-fill">
-
-              <div class="row card-container d-flex justify-content-center align-items-start pt-4" id="style-1">
-
-
-                    <div class="upper">
-
-                      <img src="cats.jpg" class="img-fluid">
-
-                    </div>
-
-                    <div class="user text-center">
-
-                      <div class="profile p-1">
-
-                        <img src="profile2.jpg" class="rounded-circle" width="80">
-
-                      </div>
-
-                    </div>
-
-
-                    <div class="mt-5 text-center">
-
-                      <h4 class="mt-5 mb-0">Queeny Mae Escabarte</h4>
-                      <span class="text-muted d-block mb-2">BS Computer Science III</span>
-
-                      <ul class="justify-content-center p-4">
-                        <li>
-                          <a class="facebook" href="https://www.facebook.com/kueueue" target="_blank">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="twitter" href="https://x.com/qescabart3" target="_blank">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="instagram" href="https://www.instagram.com/kueueni/" target="_blank">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <i class="fa fa-instagram" aria-hidden="true" target="_blank"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="google" href="mailto:21103388@usc.edu.ph" target="_blank">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <i class="fa fa-google-plus" aria-hidden="true"></i>
-                          </a>
-                        </li>
-                      </ul>
-
-
-                      <!-- <div class="d-flex justify-content-between align-items-center mt-4 px-4">
-
-                        <div class="stats">
-                          <h6 class="mb-0">Followers</h6>
-                          <span>8,797</span>
-
-                        </div>
-
-
-                        <div class="stats">
-                          <h6 class="mb-0">Projects</h6>
-                          <span>142</span>
-
-                        </div>
-
-
-                        <div class="stats">
-                          <h6 class="mb-0">Ranks</h6>
-                          <span>129</span>
-
-                        </div>
-
-                      </div> -->
-
-
-                </div>
-
-                <!----
-                <div class="row">
-                  <div class="col-4"><img class="my-pic" src="download.png" alt="ME!"></div>
-                  <div class="col">
-
-                  </div>
-                </div>
-                -->
-              </div>
-
-            </div>
-
-            <!-- ------------------>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Escabarte - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container-fluid d-flex flex-column min-vh-100 pt-3">
+    <div class="row flex-column flex-md-row flex-fill m-2">
+      <div class="col-12 col-md-3 me-md-5">
+        <div class="d-flex flex-column">
+          <a class="row p-3 mw-30" href="./index.html">
+            <button type="button" class="button-74">About Me</button>
+          </a>
+          <a class="row p-3 mw-20" href="./faremepage.html">
+            <button type="button" class="button-74 active" disabled>FareMe</button>
+          </a>
         </div>
+      </div>
+      <div class="col-12 col-md ms-md-5 d-flex flex-column">
+        <div class="row card-container flex-fill justify-content-center" id="style-1">
+          <!-- Content here -->
+          <div class="row title">
+            <img src="FareMeText.png" alt="FareMe">
+          </div>
+          <div class="row tagline">
+            <hr class="col">
+            <h2 class="col-8">Philippine transport made easy</h2>
+            <hr class="col">
+          </div>
+
+          <div class="row fareme-content">
+
+          </div>
+
+        </div>
+      </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
