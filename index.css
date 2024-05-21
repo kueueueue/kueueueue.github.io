@@ -377,3 +377,25 @@ ul {
     border-color: white;
     border-style:groove;
   }
+
+  .prototype-images{
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+  .prototype-images img{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin: 10px;
+  }
+
+  .prototype-images img:active{
+    transform: scale(1.4);
+    z-index: 1;
+
+  }
